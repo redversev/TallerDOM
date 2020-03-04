@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.noticia{
+    border-bottom: 1px solid grey;
+}
+.noticia .titulo{
+    font-weight: 800;
+}
+.noticia .imagen{
+    max-width: 300px;
+}
+.noticia .imagen img{
+    max-width: 100%;
+}
