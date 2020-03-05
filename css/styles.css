@@ -3,11 +3,35 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+#contenido_football{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
 .noticia{
-    border-bottom: 1px solid grey;
+    border: 1px solid grey;
+    max-width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: black;
+    color: white;
 }
 .noticia .titulo{
     font-weight: 800;
+    padding: 5px 10px;
+}
+.noticia .descripcion{
+    padding: 5px 10px;
+    font-size: .7em;
+    text-align: justify;
+}
+.noticia .fuente{
+    padding: 5px 10px;
+    color: grey;
+    font-size: .8em;
 }
 .noticia .imagen{
     max-width: 300px;
