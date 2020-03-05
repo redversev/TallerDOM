@@ -1,6 +1,6 @@
-var cuerpo = document.querySelectorAll('body')
+var cuerpo = document.querySelector('body')
 console.log("----->", cuerpo)
-cuerpo.innerHTML = "<div id='contenido_football_3'>REDV</div>";
+cuerpo.innerHTML = "<div id='contenido_football'></div>";
 
 
 var contador = 0
